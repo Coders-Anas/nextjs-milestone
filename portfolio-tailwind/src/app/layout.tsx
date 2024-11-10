@@ -5,8 +5,8 @@ import Navbar from "../components/Navbar";
 const outfit = Outfit({subsets: ["latin"]})
 
 export const metadata: Metadata = {
-  title: "Milestone 2",
-  description: "Milestone 2: Basic UI Design, Custom CSS & Tailwind CSS",
+  title: "Muhammad Anas Portfolio",
+  description: "Tailwind Portfolio: A portfolio website built with TailwindCSS",
 };
 
 export default function RootLayout({

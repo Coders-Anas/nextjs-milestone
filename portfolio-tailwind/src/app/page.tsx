@@ -4,11 +4,7 @@ import React from "react";
 export default function Page() {
   return (
     <>
-      <div className="pt-24 h-full flex flex-col items-center">
-        <h1 className="text-4xl text-teal-500 font-bold">Milestone - 2</h1>
-        <h2 className="mb-8 text-2xl font-semibold text-black/60">
-          Made by: Muhammad Anas
-        </h2>
+      <div className="pt-24 min-h-[550px] flex flex-col items-center">
         <div className="flex gap-4 flex-row-reverse items-center max-w-4xl">
           <Image
             alt="user avatar"
@@ -16,8 +12,7 @@ export default function Page() {
             width={380}
             height={380}
           />
-          <div className="flex flex-col gap-3">
-            <p className="text-4xl font-semibold">Hello World!</p>
+          <div className="flex flex-col gap-6">
             <p className="flex gap-3 text-4xl">
               I am
               <span className="italic text-teal-500 font-semibold">

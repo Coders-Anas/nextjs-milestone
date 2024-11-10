@@ -10,8 +10,7 @@ export default function Navbar() {
         <Link className='uppercase btn btn-link link-accent' href={"/"}>Home</Link>
         <Link className='uppercase btn btn-link link-accent' href={"/about"}>About</Link>
         <Link className='uppercase btn btn-link link-accent' href={"/contact"}>Contact</Link>
-        <Link className='uppercase btn btn-link link-accent' href={"/faq"}>FAQ</Link>
-        <Link className='uppercase btn btn-accent' href={"#"}>Login</Link>
+        <Link className='uppercase btn btn-link link-accent' href={"/projects"}>Projects</Link>
       </nav>
     </div>
     </>

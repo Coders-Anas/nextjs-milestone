@@ -4,7 +4,7 @@ import React from "react";
 export default function Page() {
   return (
     <>
-      <div className="pt-48 h-full flex flex-col items-center">
+      <div className="pt-24 h-full flex flex-col items-center">
         <h1 className="text-4xl text-teal-500 font-bold">Milestone - 2</h1>
         <h2 className="mb-8 text-2xl font-semibold text-black/60">
           Made by: Muhammad Anas

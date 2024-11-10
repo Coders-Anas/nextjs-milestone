@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import localFont, { Outfit } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
-const outfit = Outfit()
+const outfit = Outfit({subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: "Milestone 2",

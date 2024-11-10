@@ -7,7 +7,7 @@ export default function page() {
     <>
       <ContentWrapper>
         <PageHeading text="About" />
-        <p className="text-center">
+        <p className="about">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
           fugit qui placeat error maxime, eos animi odit magni consequatur totam
           architecto nostrum quas dolorum esse aut! Dolore odit sint vitae quia

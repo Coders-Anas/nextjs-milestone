@@ -4,16 +4,16 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-    <div className='py-2 px-12 flex justify-between'>
-      <h1 className='uppercase text-2xl font-black text-teal-900'>Brand Name</h1>
-      <nav>
-        <Link className='uppercase btn btn-link link-accent' href={"/"}>Home</Link>
-        <Link className='uppercase btn btn-link link-accent' href={"/about"}>About</Link>
-        <Link className='uppercase btn btn-link link-accent' href={"/contact"}>Contact</Link>
-        <Link className='uppercase btn btn-link link-accent' href={"/faq"}>FAQ</Link>
-        <Link className='uppercase btn btn-accent' href={"#"}>Login</Link>
-      </nav>
-    </div>
+<div className="navbar">
+  <h1 className="navbar__brand">Muhammad Anas</h1>
+  <nav>
+    <Link className="navbar__link" href="/">Home</Link>
+    <Link className="navbar__link" href="/about">About</Link>
+    <Link className="navbar__link" href="/contact">Contact</Link>
+    <Link className="navbar__link" href="/projects">Projects</Link>
+  </nav>
+</div>
+
     </>
   )
 }

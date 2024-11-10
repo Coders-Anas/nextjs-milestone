@@ -7,16 +7,15 @@ export default function page() {
     <>
       <ContentWrapper>
         <PageHeading text="Projects" />
-        <div id="projects" className="grid gap-4 grid-cols-1 lg:grid-cols-2">
-          <div className="card bg-base-100 w-96 shadow-xl">
-            <div className="card-body">
-              <h2 className="card-title">Static Resume</h2>
-              <p>
+        <div className="projects-grid">
+          <div className="project-card">
+            <div className="project-card__body">
+              <h2 className="project-card__title">Static Resume</h2>
+              <p className="project-card__description">
                 A static resume built with HTML, CSS, JavaScript, and
-                TailwindCSS. It showcases my personal information in a user
-                friendly and beautifully designed UI
+                TailwindCSS. It showcases my personal information in a user-friendly and beautifully designed UI.
               </p>
-              <div className="card-actions justify-end">
+              <div className="project-card__actions">
                 <a href="" className="btn btn-accent">
                   Visit
                 </a>
@@ -24,21 +23,20 @@ export default function page() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-96 shadow-xl">
-            <div className="card-body">
-              <h2 className="card-title">Static Resume Generator</h2>
-              <p>
+          <div className="project-card">
+            <div className="project-card__body">
+              <h2 className="project-card__title">Static Resume Generator</h2>
+              <p className="project-card__description">
                 A static resume generator built with HTML, CSS, JavaScript, and
-                TailwindCSS. Users can fill in their information to obtain a fully customized Resume.
+                TailwindCSS. Users can fill in their information to obtain a fully customized resume.
               </p>
-              <div className="card-actions justify-end">
+              <div className="project-card__actions">
                 <a href="" className="btn btn-accent">
                   Visit
                 </a>
               </div>
             </div>
           </div>
-
         </div>
       </ContentWrapper>
     </>

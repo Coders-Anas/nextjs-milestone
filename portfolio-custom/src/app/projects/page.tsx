@@ -7,29 +7,19 @@ export default function page() {
     <>
       <ContentWrapper>
         <PageHeading text="Projects" />
-<<<<<<< HEAD:portfolio-tailwind/src/app/projects/page.tsx
         <div id="projects" className="grid gap-4 grid-cols-1 lg:grid-cols-2">
           <div className="card bg-base-100 w-96 shadow-xl">
             <div className="card-body">
-              <h2 className="card-title"><a href="https://milestones-1-2-pink.vercel.app/"></a>Static Resume</h2>
-              <h2 className="card-title"><a href="https://milestone-3-taupe.vercel.app/"></a>Dynamic Resume</h2>
-              <h2 className="card-title"><a href="https://milestone-4-peach.vercel.app/"></a>Editable Resume</h2>
-              <h2 className="card-title"><a href="https://milestones-5-puce.vercel.app/"></a>Shareable Resume</h2>
+              <h2 className="card-title">Static Resume</h2>
               <p>
-=======
-        <div className="projects-grid">
-          <div className="project-card">
-            <div className="project-card__body">
-              <h2 className="project-card__title">Static Resume</h2>
-              <p className="project-card__description">
->>>>>>> bd2175ad523daa1e9fac413024941adf422a89c7:portfolio-custom/src/app/projects/page.tsx
                 A static resume built with HTML, CSS, JavaScript, and
                 TailwindCSS. It showcases my personal information in a user-friendly and beautifully designed UI.
               </p>
               <div className="project-card__actions">
-                <a href="" className="btn btn-accent">
-                  Visit
-                </a>
+                <a href="https://hackathon-milestone-liard.vercel.app/" className="btn btn-accent">Visit</a>
+                <a href="" className="btn btn-accent">Visit</a>
+                <a href="https://hackathon-milestone-gfd3.vercel.app/" className="btn btn-accent">Visit</a>
+                <a href="https://hackathon-milestone-f2xo.vercel.app/" className="btn btn-accent">Visit</a>
               </div>
             </div>
           </div>

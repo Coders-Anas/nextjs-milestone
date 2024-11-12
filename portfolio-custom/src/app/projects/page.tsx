@@ -7,7 +7,7 @@ export default function page() {
     <>
       <ContentWrapper>
         <PageHeading text="Projects" />
-<<<<<<< HEAD:portfolio-tailwind/src/app/projects/page.tsx
+{/* <<<<<<< HEAD:portfolio-tailwind/src/app/projects/page.tsx */}
         <div id="projects" className="grid gap-4 grid-cols-1 lg:grid-cols-2">
           <div className="card bg-base-100 w-96 shadow-xl">
             <div className="card-body">
